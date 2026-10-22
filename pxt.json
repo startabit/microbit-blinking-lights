@@ -1,0 +1,17 @@
+{
+    "name": "microbit-police-and-traffic-lights",
+    "version": "0.0.1",
+    "description": "Step-by-step tutorial: one LED, police lights, traffic lights and a pedestrian button",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*"
+    },
+    "files": [
+        "README.md"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
