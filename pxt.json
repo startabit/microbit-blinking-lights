@@ -1,7 +1,7 @@
 {
-    "name": "microbit-police-and-traffic-lights",
+    "name": "microbit-blinking-lights",
     "version": "0.0.1",
-    "description": "Step-by-step tutorial: one LED, police lights, traffic lights and a pedestrian button",
+    "description": "Step-by-step tutorial: make it blink, flash like a police car, run a traffic light, press to cross",
     "dependencies": {
         "core": "*",
         "radio": "*",

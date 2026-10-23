@@ -1,4 +1,4 @@
-# Police and traffic lights
+# Blinking lights: police car and traffic light
 
 ### @explicitHints false
 
@@ -7,9 +7,9 @@
 Four LEDs and a button on a breadboard: red on **pin 1**, yellow on **pin 2**, green on **pin 8**, blue on **pin 13**,
 and the button on **pin 14**. Each LED has a 220 Ω resistor.
 
-![Wire it: the Micro:bit, 4 LEDs and a button on a breadboard](https://www.startabit.com/projects/police-and-traffic-lights/images/3-wire-microbit.png)
+![Wire it: the Micro:bit, 4 LEDs and a button on a breadboard](https://www.startabit.com/projects/blinking-lights/images/wiring-microbit.png)
 
-## Step 1: One LED blinks
+## Step 1: Make it blink
 
 The pin blocks are under **Advanced**, then ``||pins:Pins||``. In ``||basic:forever||``:
 pin **P1** to **1**, pause **500**, pin **P1** to **0**, pause **500**.
@@ -28,7 +28,7 @@ basic.forever(function () {
 **Download**: the red LED blinks.
 Dark? Turn the LED round: the **long leg** goes to the resistor.
 
-## Step 3: Police lights
+## Step 3: Flash like a police car
 
 Now red and blue take turns. In ``||basic:forever||``: **P1** to **1** and **P13** to **0**, pause **300**,
 then **P1** to **0** and **P13** to **1**, pause **300**.
@@ -152,4 +152,4 @@ Then yellow, red for the pedestrians, and green again.
 
 Your traffic light listens to a pedestrian button.
 More challenges, like an emergency mode with the blue LED, are on the
-[project page](https://www.startabit.com/projects/police-and-traffic-lights/#challenges).
+[project page](https://www.startabit.com/projects/blinking-lights/#challenges).
